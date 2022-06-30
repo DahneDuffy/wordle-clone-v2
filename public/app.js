@@ -107,7 +107,7 @@ const checkRow = () => {
                 } else {
                     flipTile();
                     if (wordle===guess){
-                        showMessage('Magnificent!')
+                        showMessage('Good job, Dahne!')
                         isGameOver = true;
                         return
                     } else{
